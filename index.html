@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Furniture Makers - Crafted Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">Latest Furniture Makers</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="policies.html">Policies</a></li>
+            </ul>
+        </nav>
+        <div class="cart"><span class="cart-amount">$0.00</span></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Latest Furniture Makers: Crafted Excellence</h1>
+            <p>Elevate your space with handcrafted, timeless furniture. Discover quality today!</p>
+            <button class="cta-button" onclick="scrollToSection('why-choose')">Explore More</button>
+        </div>
+    </section>
+
+    <!-- Why Choose Latest Furniture Makers -->
+    <section class="why-choose" id="why-choose">
+        <h2>Why Choose Us?</h2>
+        <div class="benefits">
+            <div class="benefit-card">
+                <img src="images/sits and table.jpeg" alt="Handcrafted Quality">
+                <h3>Handcrafted Quality</h3>
+                <p>Each piece is meticulously made by skilled artisans.</p>
+            </div>
+            <div class="benefit-card">
+                <img src="images/sofas.jpeg" alt="Sustainable Materials">
+                <h3>Sustainable Materials</h3>
+                <p>We use eco-friendly, responsibly sourced wood.</p>
+            </div>
+            <div class="benefit-card">
+                <img src="images/images.jpeg" alt="Custom Designs">
+                <h3>Custom Designs</h3>
+                <p>Tailor-made furniture to suit your unique style.</p>
+            </div>
+            <div class="benefit-card">
+                <img src="images/images1.jpeg" alt="Durable Craftsmanship">
+                <h3>Durable Craftsmanship</h3>
+                <p>Built to last with exceptional strength and finish.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Craft -->
+    <section class="how-it-works">
+        <h2>How We Craft</h2>
+        <p>From concept to creation, our process ensures perfection.</p>
+        <div class="steps">
+            <div class="step-card">
+                <h3>1. Design Consultation</h3>
+                <p>We collaborate with you to bring your vision to life.</p>
+            </div>
+            <div class="step-card">
+                <h3>2. Material Selection</h3>
+                <p>Premium wood and finishes are chosen for quality.</p>
+            </div>
+            <div class="step-card">
+                <h3>3. Expert Crafting</h3>
+                <p>Our artisans craft each piece with precision.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showroom Gallery -->
+    <section class="farm-gallery">
+        <h2>Our Showroom</h2>
+        <p>Step into our world of exquisite furniture designs.</p>
+        <div class="gallery">
+            <img src="images/474134885_601048035999811_6343013078544147717_n.jpg" alt="Living Room Set" class="gallery-img">
+            <img src="images/476631611_548243478235834_7237422190208586118_n.jpg" alt="Dining Table" class="gallery-img">
+            <img src="images/480973281_575846852142163_7116428931119074655_n.jpg" alt="Bedroom Collection" class="gallery-img">
+            <img src="images/487680188_654175704020377_3188730181135725516_n.jpg" alt="Office Desk" class="gallery-img">
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/sofa.jpg" alt="Modern Sofa">
+                <h3>Modern Sofa</h3>
+                <p>Kes 12, 500.00</p>
+                <button class="add-to-cart" onclick="addToCart('Modern Sofa', 450)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/dining table.jpg" alt="Oak Dining Table">
+                <h3>Oak Dining Table</h3>
+                <p>$600.00</p>
+                <button class="add-to-cart" onclick="addToCart('Oak Dining Table', 600)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/bed.jpg" alt="King Bed Frame">
+                <h3>King Bed Frame</h3>
+                <p>$800.00</p>
+                <button class="add-to-cart" onclick="addToCart('King Bed Frame', 800)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/coffee-table.jpg" alt="Glass Coffee Table">
+                <h3>Glass Coffee Table</h3>
+                <p>$250.00</p>
+                <button class="add-to-cart" onclick="addToCart('Glass Coffee Table', 250)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/shelf50_n.jpg" alt="Walnut Bookshelf">
+                <h3>Walnut Bookshelf</h3>
+                <p>$350.00</p>
+                <button class="add-to-cart" onclick="addToCart('Walnut Bookshelf', 350)">Add to Cart</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Our Commitment -->
+    <section class="sustainability">
+        <h2>Our Commitment</h2>
+        <p>We craft furniture that lasts, with care for the environment and community.</p>
+        <div class="sustainability-grid">
+            <div class="sustain-card">
+                <h3>Eco-Friendly</h3>
+                <p>Using sustainable wood and low-impact finishes.</p>
+            </div>
+            <div class="sustain-card">
+                <h3>Community Support</h3>
+                <p>Partnering with local artisans for every piece.</p>
+            </div>
+            <div class="sustain-card">
+                <h3>Lifetime Durability</h3>
+                <p>Designed to endure for generations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="testimonials">
+        <h2>Customer Reviews</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p>"The sofa transformed my living room. Exceptional quality!"</p>
+                <h4>— Sarah Kimani, Nairobi</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"I love my custom dining table. Worth every penny."</p>
+                <h4>— James Otieno, Mombasa</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Their craftsmanship is unmatched. Highly recommend!"</p>
+                <h4>— Linda Wambui, Eldoret</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <p>Questions or custom orders? Get in touch with us today!</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Latest Furniture Makers</h3>
+                <p>Crafting timeless furniture for modern living.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: info@latestfurniture.co.ke</p>
+                <p>Phone: +254 987 654 321</p>
+                <p>Address: P.O. Box 456, Nairobi, Kenya</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Latest Furniture Makers. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
